@@ -6,3 +6,13 @@ function theBeatlesPlay(musiciansArray, instrumentsArray) {
   }
   return whoPlaysWhat;
 }
+
+function johnLennonFacts(factsArray) {
+  var i = 0;
+  
+  // assumes factsArray not empty
+  while (i < factsArray.length) {
+    factsArray[i] = `${factsArray[i]}!!!`;
+    i++;
+  }
+}
