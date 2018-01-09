@@ -24,7 +24,8 @@ function iLoveTheBeatles(num) {
   
   do {
     retArray.push("I love the Beatles!");
-  } while (++num < 15);
+    // could do num++ here instead of in loop condition test
+  } while (++num < 15); // inc num BEFORE using it in comparison
   
   return retArray;
 }
